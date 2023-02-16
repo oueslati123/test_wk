@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Ma page de test, contacter</title>
+        <meta name="description" content="Creation de mon premiere site web avec mon nouveau formation gomycode">
+        <meta name="keywords" content="CV,Biotechnologie,Cyclotourisme">    
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Accueil">Accueil</a></li>
+                <li><a href="Divers.html" title="Divers">Divers</a></li>
+                <li><a href="Contact.html" title="Contacts">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Nous contacter</h1>
+        <form action="Contact.html">
+            <fieldset>
+                <legend>Nous contacter</legend>
+                <div>
+                    <label for="mailinput">Votre mail</label>
+                    <input type="text" name="mail" id="mailinput" placeholder="admin@admin.com" required>
+                </div><br />
+                <div>
+                    <label for="fileinput">piéce jointe</label>
+                    <input type="file" name="file" id="fileinput">
+                </div><br />
+                <div>
+                    <label for="nameput">Votre nom</label>
+                    <input type="text" name="firstname" id="nameinput">
+                </div>
+                <div>
+                    <label for="lastnameput">Votre prenom</label>
+                    <input type="text" name="lastname" id="lastnameput">
+                </div>
+
+                <label>Sexe</label>
+                <div>
+                    
+                    <input type="radio" name="sexe" id="masculin">
+                    <label for="masculin">masculin</label>
+                </div>
+                <div>
+                    
+                    <input type="radio" name="sexe" id="feminin">
+                    <label for="feminin">feminin</label>
+                </div><br />    
+            <div>
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="votre message">votre message</textarea>
+            </div><br />
+            <input type="submit" name="envoyer un email">
+            <input type="reset" valeur="annuler">
+            
+             </fieldset>
+            <div>
+                <p>
+                    <a href="index.html">Revenir à l'accueil</a>
+                </p>
+            </div>
+        </form>
+    </body>
+</html>
