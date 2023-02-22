@@ -1,0 +1,17 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1{
+    color: brown;
+    background: none;
+    
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    animation: 5s infinite;
+}

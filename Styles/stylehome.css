@@ -1,0 +1,32 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  div{
+    display: block;
+  }
+  p{
+    height: 70px;
+    width: 900px;
+    background: grey;
+    color: black;
+  }
+  #st_ex{
+    color: red;
+  }
+  
+  .rempF{
+    font-family: sans-serif;
+  }
+  th{
+    color: darkgray;
+  }
+
+h1{
+    text-align: center;
+}  
+
+#ANM{
+    animation: mymove 5s;
+}
