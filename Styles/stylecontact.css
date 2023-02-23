@@ -12,6 +12,7 @@ body {
 body{
     font-family: 'Times New Roman', Times, serif;
 }
-div{
-    animation: 5s infinite;
+
+.date label{
+    color: darkgreen;
 }
