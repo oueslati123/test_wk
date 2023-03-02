@@ -1,69 +1,134 @@
 body {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  div{
-    display: block;
-  }
-  p{
-    height: 70px;
-    width: 900px;
-    
-    color: black;
-    line-height: 30px;
-  }
-  #st_ex{
-    color: red;
-  }
-  
-  .rempF{
-    font-family: sans-serif;
-  }
-  th{
-    color: darkgray;
-  }
-
-h1{
-    text-align: center;
-}  
-
-.ANM h1{
-    color: blue;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: darkgoldenrod;
 }
-.box1 h1{
-    color: blue;
+div {
+  display: block;
+}
+p {
+  height: 70px;
+  width: 900px;
+
+  color: black;
+  line-height: 30px;
+}
+#st_ex {
+  color: red;
+}
+
+.rempF {
+  font-family: sans-serif;
+}
+th {
+  color: darkgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ANM h1 {
+  color: blue;
+}
+.box1 h1 {
+  color: blue;
+}
+
+.box1 {
+  padding: 50px 50px;
+  margin: 30px;
+  border: solid;
+  border-color: black;
+}
+
+#HM {
+  border: 5px dotted black;
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-shadow: -1px -1px 1px #aaa, 0px 2px 1px rgba(0, 0, 0, 0.5),
+    2px 2px 2px rgba(0, 0, 0, 0.7), 0px 0px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.box1 h2 {
+  border: 5px dotted blueviolet;
+}
+
+.boox p {
+  display: inline;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ent {
+  padding: 5px 50px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border: solid;
+  border-color: black;
+  position: sticky;
+  top: 0;
+  background-color: gray;
+}
+
+.pied3 {
+  border: solid;
+  border-color: black;
+}
+
+.boox p {
+  color: blue;
+}
+
+.box_dsg {
+  display: flexbox;
+}
+.ANM {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .box1{
-    padding: 50px 50px;
-    margin: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#HM{
-    border: 5px dotted black;
-    font-size: 4rem;
-    text-transform: capitalize;
-    text-shadow: -1px -1px 1px #aaa,
-                 0px 2px 1px rgba(0,0,0,0.5),
-                 2px 2px 2px rgba(0,0,0,0.7),
-                 0px 0px 3px rgba(0,0,0,0.4);
-    text-align: center;
+.box1_2{
+  display: flexbox;
 }
 
-.box1 h2{
-    border: 5px dotted blueviolet;
+
+
+
+
+/*
+.box1 {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 900px;
+  align-items: center;
+}
+/*
+.box1_1 {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.boox p{
-    display: inline;
-    padding-top: 500px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-   
+.box1_2 {
+  display: flex;
+  justify-content: center;
 }
 
-.ent{
-  padding: 50px 50px;
+.box1_3 {
+  display: flex;
+  justify-content: flex-start;
 }
+
+
+
+

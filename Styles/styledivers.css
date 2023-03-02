@@ -1,33 +1,66 @@
 body {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-h2{
-    color: brown;
-    background-color: blue;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
 }
-body{
-    font-family: 'roboto, sans-serif';
+h2 {
+  color: brown;
+  background-color: grey;
+  font-family: Source Sans Pro;
 }
-
-.box h2{
-    color: red;
+body {
+  font-family: "roboto, sans-serif";
 }
 
-.text{
-    color: blue;
+.box h2 {
+  color: red;
+  font-family: Source Sans Pro;
 }
 
-.boxx p{
-    display: inline;
-    padding-top: 500px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+.text {
+  color: blue;
 }
 
+.text:focus {
+  color: darkgreen;
+}
 
-.entete{
-    padding: 50px 50px;
+.boxx p {
+  display: inline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.entete {
+  padding: 5px 50px;
+  border: solid;
+  border-color: black;
+  background-color: darkgrey;
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+.piedpg {
+  border: solid;
+  border-color: aqua;
+  background-color: hotpink;
+  text-align: center;
+}
+.container {
+  border: solid;
+  border-color: crimson;
+  background-color: cornflowerblue;
+}
+.piedpg p {
+  display: inline;
+}
+
+.entete {
+  position: sticky;
+  top: 0;
 }

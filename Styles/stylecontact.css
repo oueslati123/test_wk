@@ -1,39 +1,69 @@
 body {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  h1{
-    color: brown;
-    background: none;
-    
-    
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  color: brown;
+  background: none;
 }
 
-body{
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.date label{
-    color: darkgreen;
+.date label {
+  color: darkgreen;
 }
 
-.deco{
-    text-decoration: aqua;
-    text-align: center;
-    text-size-adjust: 10px;
+.deco {
+  text-decoration: underline;
+  text-align: center;
+  text-size-adjust: 10px;
 }
 
-.box3 p{
-    display: inline;
-    padding-top: 500px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+.box3 p {
+  display: inline;
+  padding-top: 500px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-
-.entete3{
-    padding: 50px 50px;
+.entete3 {
+  padding: 5px 50px;
+  position: sticky;
+  top: 0;
+  background-color: cornflowerblue;
 }
 
+.entete3 {
+  border-style: solid;
+  border-color: brown;
+}
+
+.formulaire {
+  border-style: solid;
+  border-color: red;
+}
+
+.pied {
+  border-style: solid;
+  border-color: black;
+  background-color: darkred;
+}
+
+.box3 a:hover {
+  text-decoration: underline;
+}
+
+.box3 a {
+  text-decoration: none;
+}
+.pied p {
+  text-align: center;
+}
+
+.formulaire h1 {
+  font-weight: 100;
+}

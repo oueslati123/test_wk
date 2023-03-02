@@ -1,83 +1,115 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Contact</title>
-        <meta name="description" content="Creation de mon premiere site web avec mon nouveau formation gomycode">
-        <meta name="keywords" content="CV,Biotechnologie,Cyclotourisme">
-        <link href="Styles/stylecontact.css" rel="stylesheet">    
-    </head>
-    <body>
-        <header class="entete3">
-          <nav class="box3">
-            <p><a href="index.html" title="Accueil">Accueil</a></p>
-            <p><a href="Divers.html" title="Divers">Divers</a></p>
-            <p><a href="Contact.html" title="Contacts">Contact</a></p>
-            <p><a href="home.html" title="Home">Home</a></p>
-          </nav>
-        </header>
-        <h1>Nous contacter</h1>
-        <form action="Contact.html">
-            <fieldset border="5">
-                <legend>Nous contacter</legend>
-                <div>
-                    <label for="mailinput">Votre mail</label>
-                    <input type="text" name="mail" id="mailinput" placeholder="admin@admin.com" required>
-                </div><br />
-                <div>
-                    <label for="fileinput">piéce jointe</label>
-                    <input type="file" name="file" id="fileinput">
-                </div><br />
-                <div>
-                    <label for="nameput">Votre nom</label>
-                    <input type="text" name="firstname" id="nameinput">
-                </div>
-                <div>
-                    <label for="lastnameput">Votre prenom</label>
-                    <input type="text" name="lastname" id="lastnameput">
-                </div>
-                <div class="date">
-                    <label for="Date de naissance">Date de naissance</label>
-                    <input type="Date" name="Date de naissance" id="datedenaissance">
-                </div>
-                
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <meta
+      name="description"
+      content="Creation de mon premiere site web avec mon nouveau formation gomycode"
+    />
+    <meta name="keywords" content="CV,Biotechnologie,Cyclotourisme" />
+    <link href="Styles/stylecontact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="entete3">
+      <nav class="box3">
+        <p><a href="index.html" title="Accueil">Accueil</a></p>
+        <p><a href="Divers.html" title="Divers">Divers</a></p>
+        <p><a href="Contact.html" title="Contacts">Contact</a></p>
+        <p><a href="home.html" title="Home">Home</a></p>
+      </nav>
+    </header>
+    <main class="formulaire">
+      <h1>Nous contacter</h1>
+      <form action="Contact.html">
+        <fieldset border="5">
+          <legend>Merci de remplir le formulaire ci-dessous</legend>
+          <div>
+            <label for="mailinput">Votre mail</label>
+            <input
+              type="text"
+              name="mail"
+              id="mailinput"
+              placeholder="admin@admin.com"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="fileinput">piéce jointe</label>
+            <input type="file" name="file" id="fileinput" />
+          </div>
+          <br />
+          <div>
+            <label for="nameput">Votre nom</label>
+            <input type="text" name="firstname" id="nameinput" />
+          </div>
+          <div>
+            <label for="lastnameput">Votre prenom</label>
+            <input type="text" name="lastname" id="lastnameput" />
+          </div>
+          <div class="date">
+            <label for="Date de naissance">Date de naissance</label>
+            <input type="Date" name="Date de naissance" id="datedenaissance" />
+          </div>
 
-                <label>Sexe</label>
-                <div>
-                    
-                    <input type="radio" name="sexe" id="masculin">
-                    <label for="masculin">masculin</label>
-                </div>
-                <div>
-                    
-                    <input type="radio" name="sexe" id="feminin">
-                    <label for="feminin">feminin</label>
-                </div><br /> 
-                <div>
-                    <label>Password:</label>
-                    <input type="password" name="password">
-                </div> 
-                <div>
-                    <label>Confirm password</label>
-                    <input type="cofirm password" name="confirmpassword">
-                </div>  
-            <div>
-                <label for="message">Votre message</label>
-                <textarea name="message" id="message" cols="30" rows="5" placeholder="votre message" required>votre message</textarea>
-            </div><br />
-            <input type="submit" name="envoyer un email">
-            <input type="reset" valeur="annuler">
-            
-             </fieldset>
-            <div class="deco">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est ratione deserunt consequuntur ut vitae dolore recusandae hic suscipit cum! Natus unde harum incidunt veniam repellat nulla nostrum ratione corporis.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio corporis enim repudiandae, id quis adipisci in, deleniti voluptatibus, cupiditate nulla inventore a error eaque. Totam illum cupiditate officia dolorum enim?</p>
-            </div>
-            <div>
-                <p>
-                    <a href="index.html">Revenir à l'accueil</a>
-                </p>
-            </div>
-        </form>
-    </body>
+          <label>Sexe</label>
+          <div>
+            <input type="radio" name="sexe" id="masculin" />
+            <label for="masculin">masculin</label>
+          </div>
+          <div>
+            <input type="radio" name="sexe" id="feminin" />
+            <label for="feminin">feminin</label>
+          </div>
+          <br />
+          <div>
+            <label>Password:</label>
+            <input type="password" name="password" />
+          </div>
+          <div>
+            <label>Confirm password</label>
+            <input type="cofirm password" name="confirmpassword" />
+          </div>
+          <div>
+            <label for="message">Votre message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="votre message"
+              required
+            >
+votre message</textarea
+            >
+          </div>
+          <br />
+          <input type="submit" name="envoyer un email" />
+          <input type="reset" valeur="annuler" />
+        </fieldset>
+        <div class="deco">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est
+            ratione deserunt consequuntur ut vitae dolore recusandae hic
+            suscipit cum! Natus unde harum incidunt veniam repellat nulla
+            nostrum ratione corporis.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            corporis enim repudiandae, id quis adipisci in, deleniti
+            voluptatibus, cupiditate nulla inventore a error eaque. Totam illum
+            cupiditate officia dolorum enim?
+          </p>
+        </div>
+      </form>
+    </main>
+    <footer class="pied">
+      <div>
+        <p>
+          <a href="index.html">Revenir à l'accueil</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
