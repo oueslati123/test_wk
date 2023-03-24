@@ -12,3 +12,8 @@ function test(a) {
   return x;
 }
 console.log(test(20));
+
+function myfunction(a, b) {
+  return a * b;
+}
+myfunction(10, 2);
